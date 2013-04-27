@@ -29,11 +29,13 @@
             <scope>provided</scope>
             <version>4.1.1.4</version>
         </dependency>
-        <dependency>
-            <groupId>android.support</groupId>
-            <artifactId>compatibility-v4</artifactId>
-            <version>11</version>
-        </dependency>
+<dependency>
+	<groupId>com.google.android</groupId>
+	<artifactId>support-v4</artifactId>
+	<version>r7</version>
+</dependency>
+            
+
     </dependencies>
 
     <build>
@@ -67,8 +69,8 @@
                 <artifactId>android-maven-plugin</artifactId>
                 <version>3.4.1</version>
                 <extensions>true</extensions>
-                <configuration>
-                    <nativeLibrariesDirectory>ignored</nativeLibrariesDirectory>
+		<configuration>
+		<nativeLibrariesDirectory>ignored</nativeLibrariesDirectory>
                 </configuration>
             </plugin>
 
